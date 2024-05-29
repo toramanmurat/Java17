@@ -8,6 +8,6 @@ public class Animal {
 		super(); // refer to constructor in java.lang.Object
 		this.age = age;
 	}
-	
-	
+
+
 }

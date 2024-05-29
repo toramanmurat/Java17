@@ -10,10 +10,11 @@ public class Question27 {
 			yield "Red";
 		}
 		case 2 -> {
-			if (name.equals("Frog")) // case icerisinde if var ve switch sonucu bir degiskene ataniyorsa. else bloguda olmasi gerekiyor!
+			if (name.equals("Frog")) { // case icerisinde if var ve switch sonucu bir degiskene ataniyorsa. else bloguda olmasi gerekiyor!
 				yield "Green";
-			else
+			} else { // case icerisinde if var ve switch sonucu bir degiskene ataniyorsa. else bloguda olmasi gerekiyor!
 				yield "Yellow";
+			}
 		}
 		case 3 -> {
 			yield "Purple";

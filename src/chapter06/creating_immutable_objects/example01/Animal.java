@@ -7,7 +7,7 @@ public final class Animal { // Not an immutable object declaration
 	private final ArrayList<String> favoriteFoods;
 
 	public Animal() {
-		this.favoriteFoods = new ArrayList<String>();
+		this.favoriteFoods = new ArrayList<>();
 		this.favoriteFoods.add("Apples");
 	}
 
@@ -23,4 +23,4 @@ public final class Animal { // Not an immutable object declaration
 // 1- class final olmali ve bütün constructor'lar private olmali
 // 2- instance variables private and final olmali.
 // 3- setter metodlar tanimlanmamali. (getter metodlar olabilir)
-// 4- 
+// 4-

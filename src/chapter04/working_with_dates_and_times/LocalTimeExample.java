@@ -1,6 +1,5 @@
 package chapter04.working_with_dates_and_times;
 
-import java.time.LocalDate;
 import java.time.LocalTime;
 
 public class LocalTimeExample {
@@ -14,8 +13,8 @@ public class LocalTimeExample {
 		System.out.println(time1);
 		System.out.println(time2);
 		System.out.println(time3);
-		
-		
-		
+
+
+
 	}
 }

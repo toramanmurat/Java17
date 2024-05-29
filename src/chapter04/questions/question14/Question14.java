@@ -16,10 +16,10 @@ public class Question14 {
 //		methodD();
 //		methodE();
 		methodF();
-		
-	
+
+
 	}
-	
+
 	private static void methodA() {
 		var date = LocalDate.now();
 		var time = LocalTime.now();
@@ -31,18 +31,18 @@ public class Question14 {
 		System.out.println("#A dateTime:"+dateTime);
 		System.out.println("#A zoneId:"+zoneId);
 		System.out.println("#A zonedDateTime:"+zonedDateTime);
-		System.out.println("#A instant:"+instant);	
+		System.out.println("#A instant:"+instant);
 	}
-	
+
 //	private static void methodB() {
 //		var time = LocalTime.now();
 //		var dateTime = LocalDateTime.now();
 //		var zoneId = ZoneId.systemDefault();
 //		var zonedDateTime = ZonedDateTime.of(dateTime, zoneId);
 //		Instant instant=new Instant();
-//		
+//
 //	}
-	
+
 //	private static void methodC() {
 //		var time = LocalTime.now();
 //		var dateTime = LocalDateTime.now();
@@ -54,10 +54,10 @@ public class Question14 {
 //		System.out.println("#A zoneId:"+zoneId);
 //		System.out.println("#A zonedDateTime:"+zonedDateTime);
 //		System.out.println("#A instant:"+instant);
-//		
-//		
+//
+//
 //	}
-	
+
 //	private static void methodD() {
 //		var time = LocalTime.now();
 //		var dateTime = LocalDateTime.now();
@@ -68,9 +68,9 @@ public class Question14 {
 //		System.out.println("#A dateTime:"+dateTime);
 //		System.out.println("#A zoneId:"+zoneId);
 //		System.out.println("#A zonedDateTime:"+zonedDateTime);
-//		System.out.println("#A instant:"+instant);	
+//		System.out.println("#A instant:"+instant);
 //	}
-	
+
 //	private static void methodE() {
 //	var time = LocalTime.now();
 //	var dateTime = LocalDateTime.now();
@@ -81,11 +81,11 @@ public class Question14 {
 //	System.out.println("#A dateTime:"+dateTime);
 //	System.out.println("#A zoneId:"+zoneId);
 //	System.out.println("#A zonedDateTime:"+zonedDateTime);
-//	System.out.println("#A instant:"+instant);	
+//	System.out.println("#A instant:"+instant);
 //}
-//	
-	
-	
+//
+
+
 	private static void methodF() {
 		var time = LocalTime.now();
 		var dateTime = LocalDateTime.now();
@@ -96,10 +96,10 @@ public class Question14 {
 		System.out.println("#F dateTime:"+dateTime);
 		System.out.println("#F zoneId:"+zoneId);
 		System.out.println("#F zonedDateTime:"+zonedDateTime);
-		System.out.println("#F instant:"+instant);	
+		System.out.println("#F instant:"+instant);
 	}
-	
-	
+
+
 
 
 }

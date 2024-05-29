@@ -14,13 +14,14 @@ class SuperClass {
 }
 
 class SubClass extends SuperClass{
-	
+
 	void overLoaded(Integer number) {
-		
+
 	}
-	
+
+	@Override
 	void overridden(Number number) throws IllegalArgumentException {
-		
+
 	}
 }
 

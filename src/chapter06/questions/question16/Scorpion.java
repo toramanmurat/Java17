@@ -10,11 +10,11 @@ public class Scorpion extends Arachnid {
 	}
 
 	public static void main(String[] args) {
-		System.out.print(Scorpion.sb + " ");
-		System.out.print(Scorpion.sb + " ");
+		System.out.print(Arachnid.sb + " ");
+		System.out.print(Arachnid.sb + " ");
 		new Arachnid();
 		new Scorpion();
-		System.out.print(Scorpion.sb);
+		System.out.print(Arachnid.sb);
 	}
 }
 

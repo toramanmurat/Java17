@@ -10,17 +10,17 @@ public class ApplyingSwitchStatements2 {
 //		switch month { // DOES NOT COMPILE (mount) () icine alinmalidir
 //		case 1: System.out.print("January");
 //		}
-		
+
 //		switch(month) // DOES NOT COMPILE {} kullanilmalidir
 //			case 1: System.out.print("January");
-		
-//		switch(month) { 
+
+//		switch(month) {
 //			case 1: 2: System.out.print("January"); // DOES NOT COMPILE 1 ile 2 arasinda ki : yerine , kullanilmalidir.
 //		}
-		
+
 		switch(month) {}
-		
-		
+
+
 	}
 
 }

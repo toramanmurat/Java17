@@ -46,7 +46,7 @@ public class UsingPrimitiveType {
 		System.out.println("Short Max value= "+Short.MAX_VALUE); //32767
 		System.out.println("Short Min value= "+Short.MIN_VALUE); // -32768
 		System.out.println(s1 + " " + s2 + " " + s3 + " " + s4);
-		
+
 
 		System.out.println("Char Max Value= "+(int) Character.MAX_VALUE); // 65535
 		System.out.println("Char Min Value= " +(int) Character.MIN_VALUE); // 0

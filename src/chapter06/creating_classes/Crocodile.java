@@ -6,7 +6,7 @@ public class Crocodile extends Reptile{
 //		 return speed; //20
 		return super.speed; //print 10
 	 }
-	
+
 	public static void main(String[] args) {
 		var croc=new Crocodile();
 		System.out.println(croc.getSpeed()); //20

@@ -17,17 +17,17 @@ public class Deer {
 //		"a";
 //		case BERRIES ->
 //		"b";
-//		
+//
 //		default ->
 //		"c";
 //		});
-		
-		System.out.print(switch(new Deer().new Diet().getFavorite()) { 
+
+		System.out.print(switch(new Deer().new Diet().getFavorite()) {
 		case APPLES ->
 		"a";
 		case BERRIES ->
 		"b";
-		
+
 		default ->
 		"c";
 		});

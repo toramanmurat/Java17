@@ -9,6 +9,6 @@ public class Fish {
 		String anotherFish=fishType+1;
 		System.out.println(anotherFish+""+fishType);
 		System.out.println(numFish+""+1);
-		
+
 	}
 }

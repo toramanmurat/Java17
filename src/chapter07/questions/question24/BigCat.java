@@ -25,5 +25,5 @@ public interface BigCat {
 
 	private int rest() {
 		return 2;
-	};
+	}
 }

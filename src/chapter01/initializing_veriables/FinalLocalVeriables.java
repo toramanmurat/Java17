@@ -9,13 +9,13 @@ public class FinalLocalVeriables {
 		final int y=10;
 		int x=20;
 //		y=x+10;  Does Not Compiler
-		
+
 		final int z;
 //		z=30; // bir kez deger atanabilir. Legal
 		z=x+30; //Legal
-		
+
 		System.out.println(z);
-		
+
 //		final array tanimlayabilir miyiz ?
 		final int[] favoriteNumbes=new int[10];
 		favoriteNumbes[0]=10;
@@ -23,14 +23,14 @@ public class FinalLocalVeriables {
 		favoriteNumbes[0]=30;
 //		Array'in icerisinde ki data'yi degistirebiliriz ve ya deger atayabiliriz.
 //		favoriteNumbes=null; Does Not Compiler
-		
+
 		System.out.println(favoriteNumbes[0]);
-		
+
 //		final list tanimlayabilir miyiz?
-		final List<Integer> counters=new ArrayList<Integer>();
+		final List<Integer> counters=new ArrayList<>();
 		counters.add(10);
 		counters.add(20);
-		
+
  	}
 }
 

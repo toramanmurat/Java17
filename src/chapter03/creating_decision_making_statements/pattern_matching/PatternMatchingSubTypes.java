@@ -1,7 +1,7 @@
 package chapter03.creating_decision_making_statements.pattern_matching;
 
 public class PatternMatchingSubTypes {
-	
+
 	public static void main(String[] args) {
 		 Integer value = 123;
 	        if (value instanceof Integer) {
@@ -17,7 +17,7 @@ public class PatternMatchingSubTypes {
 
 	        }
 	}
-	
-	
+
+
 
 }

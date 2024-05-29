@@ -12,7 +12,7 @@ public class ReturningConsistentDataTypes {
 //		case 40 -> 4L; // DOES NOT COMPILE
 //		case 50 -> null; // DOES NOT COMPILE
 		};
-		
+
 		System.out.println(size);
 	}
 

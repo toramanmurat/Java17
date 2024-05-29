@@ -7,7 +7,7 @@ public class PassByValue {
 		newNumber(num);
 		System.out.println(num); //4
 	}
-	
+
 	public static void newNumber(int num) {
 		System.out.println("Baslangic degeri ="+num); //4
 		num=8;

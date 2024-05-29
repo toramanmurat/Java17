@@ -6,7 +6,7 @@ import java.time.LocalTime;
 import java.time.Period;
 
 public class PeriodExample3 {
-	
+
 	public static void main(String[] args) {
 		 var date = LocalDate.of(2022, 1, 20);
 		 var time = LocalTime.of(6, 15);
@@ -16,7 +16,7 @@ public class PeriodExample3 {
 		 System.out.println(dateTime.plus(period)); // 2022–02–20T06:15
 		 System.out.println(time.plus(period)); // Exception java.time.temporal.UnsupportedTemporalTypeException:
 		 //LocalTime --> saat dakika saniye gibi bilgiler tutar !
-		 
+
 	}
 
 }

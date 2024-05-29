@@ -3,7 +3,7 @@ package chapter04.questions.question19;
 import java.util.Arrays;
 
 public class Quesiton19 {
-	
+
 	public static void main(String[] args) {
 		methodA();
 		methodB();
@@ -12,7 +12,7 @@ public class Quesiton19 {
 		methodE();
 		methodF();
 	}
-	
+
 	private static void methodA() {
 		String[] s1 = { "Camel", "Peacock", "Llama"};
 		String[] s2 = { "Camel", "Llama", "Peacock"};

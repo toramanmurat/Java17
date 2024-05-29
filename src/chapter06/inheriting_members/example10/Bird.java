@@ -10,4 +10,4 @@ public class Bird {
 }
 
 
-// final metodlar override edilemez. 
+// final metodlar override edilemez.

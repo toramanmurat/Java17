@@ -15,7 +15,7 @@ public class Question04 {
 		default -> throw new IllegalArgumentException("Unexpected value: " + category);
 //		default case olmadigi icin kod hata verecektir.
 		};
-		
+
 		System.out.println(type);
 	}
 }

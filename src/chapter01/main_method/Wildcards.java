@@ -1,8 +1,8 @@
 package chapter01.main_method;
 
-import java.util.*;
+import java.util.Random;
 
-//java.util.Random yerine wildcard kullanarak java.util.* şeklinde import edebiliriz.util class'inda ki child packages'lar haric import eder. 
+//java.util.Random yerine wildcard kullanarak java.util.* şeklinde import edebiliriz.util class'inda ki child packages'lar haric import eder.
 
 public class Wildcards {
 

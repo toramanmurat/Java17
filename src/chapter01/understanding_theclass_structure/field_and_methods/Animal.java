@@ -2,8 +2,8 @@ package chapter01.understanding_theclass_structure.field_and_methods;
 
 
 public class Animal {
-	
-// Java class'larinin 2 önemli öğesi vardır. 
+
+// Java class'larinin 2 önemli öğesi vardır.
 // 1- Methods
 // 2- Fields
 	String name;
@@ -15,7 +15,7 @@ public class Animal {
 	public void setName(String name) {
 		this.name = name;
 	}
-	
+
 
 }
 

@@ -22,20 +22,20 @@ public class CoveringAllPossibleValues {
 		case 2 -> System.out.println("wolf");
 		case 3 -> System.out.println("coyote");
 		}
-		
+
 		String type = switch (canis) {
 		case 1 -> "dog";
 		case 2 -> "wolf";
 		case 3 -> "coyote";
 		default -> throw new IllegalStateException("Unexpected value: " + canis);
 		};
-		
+
 		int type2 = switch (canis) {
 		case 1 -> 1;
 		case 2 -> 2;
 		case 3 -> 3;
 		default -> throw new IllegalArgumentException("Unexpected value: " + canis);
-	
+
 		};
 
 	}

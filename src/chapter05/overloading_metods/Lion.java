@@ -13,9 +13,9 @@ public class Lion {
 	public static void main(String[] args) {
 		int[] numbers=new int[] {1,2,6};
 		Lion.walk(numbers);
-		
+
 		Integer[] sizes= {10,20,60};
 		Lion.walk(sizes);
-		
+
 	}
 }

@@ -8,7 +8,7 @@ public class ReturnType {
 		}
 		System.out.println("Fish is swimmig "+distance+" meters");
 	}
-	
+
 	public static void main(String[] args) {
 		swim(5);
 		swim(-1);

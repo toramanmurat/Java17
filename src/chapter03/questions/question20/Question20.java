@@ -7,7 +7,7 @@ public class Question20 {
 //		methodB();
 //		methodD();
 		methodE();
-		
+
 	}
 
 	private static void methodA() {
@@ -15,13 +15,15 @@ public class Question20 {
 		L1: while (height++ < 10) {
 			long humidity = 12;
 			L2: do {
-				if (humidity-- % 12 == 0)
+				if (humidity-- % 12 == 0) {
 					break L2;
+				}
 				int temperature = 30;
 				L3: for (;;) {
 					temperature++;
-					if (temperature > 50)
+					if (temperature > 50) {
 						continue L2;
+					}
 				}
 			} while (humidity > 4);
 		}
@@ -33,13 +35,15 @@ public class Question20 {
 		L1: while (height++ < 10) {
 			long humidity = 12;
 			L2: do {
-				if (humidity-- % 12 == 0)
+				if (humidity-- % 12 == 0) {
 					continue;
+				}
 				int temperature = 30;
 				L3: for (;;) {
 					temperature++;
-					if (temperature > 50)
+					if (temperature > 50) {
 						continue;
+					}
 				}
 			} while (humidity > 4);
 		}
@@ -68,13 +72,15 @@ public class Question20 {
 		L1: while (height++ < 10) {
 			long humidity = 12;
 			L2: do {
-				if (humidity-- % 12 == 0)
+				if (humidity-- % 12 == 0) {
 					continue L2;
+				}
 				int temperature = 30;
 				L3: for (;;) {
 					temperature++;
-					if (temperature > 50)
+					if (temperature > 50) {
 						continue L3;
+					}
 				}
 			} while (humidity > 4);
 		}
@@ -86,13 +92,15 @@ public class Question20 {
 		L1: while (height++ < 10) {
 			long humidity = 12;
 			L2: do {
-				if (humidity-- % 12 == 0)
+				if (humidity-- % 12 == 0) {
 					continue L2;
+				}
 				int temperature = 30;
 				L3: for (;;) {
 					temperature++;
-					if (temperature > 50)
+					if (temperature > 50) {
 						continue L2;
+					}
 				}
 			} while (humidity > 4);
 		}

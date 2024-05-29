@@ -21,7 +21,7 @@ public class MantaRay {
 		first();
 		second();
 //		third(); Does Not Compile
-		
+
 		var ray=new MantaRay();
 		ray.third();
 	}

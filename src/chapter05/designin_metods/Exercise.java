@@ -9,5 +9,5 @@ public class Exercise {
 //	public modifier void bike5() {} //Does Not Compile
 //	public void final bike6() {} // Does Not Compile
 	final public void bike7() {}
-	
+
 }

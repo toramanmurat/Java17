@@ -7,9 +7,10 @@ public class ReturnValueOfAssignmentOperators {
 		long coyote = (wolf=3); // atama yapabiliriz.
 		System.out.println(wolf); // 3
 		System.out.println(coyote); // 3
-		
+
 		boolean healthy = false;
-		if(healthy = true) //healthy true assign ediliyor.
-		System.out.print("Good!");
+		if(healthy = true) { //healthy true assign ediliyor.
+			System.out.print("Good!");
+		}
 	}
 }

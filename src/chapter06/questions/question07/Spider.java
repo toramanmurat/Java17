@@ -2,10 +2,11 @@ package chapter06.questions.question07;
 
 public class Spider extends Arthropod{
 
+	@Override
 	protected void printName(int input) {
 		System.out.print("Spider");
 	}
-	
+
 	public static void main(String[] args) {
 		Arthropod a = new Spider();
 		a.printName((short)4); //sniper

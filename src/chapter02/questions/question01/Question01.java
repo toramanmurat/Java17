@@ -1,21 +1,21 @@
 package chapter02.questions.question01;
 
 public class Question01 {
-	
+
 
 	public static void main(String[] args) {
 		boolean bool1=true;
-		
-		if(bool1==true) {
+
+		if(bool1) {
 			System.out.println("== use operators");
 		}
-		
-		if(!bool1==false) {
+
+		if(bool1) {
 			System.out.println("! use operators");
 		}
-		
-		
-		
+
+
+
 	}
 }
 

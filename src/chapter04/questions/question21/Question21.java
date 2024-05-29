@@ -10,7 +10,7 @@ public class Question21 {
 	}
 
 	private static void methodA() {
-		var puzzle = new StringBuilder("Java"); 
+		var puzzle = new StringBuilder("Java");
 		puzzle.reverse();
 		System.out.println(puzzle);//avaJ
 
@@ -29,7 +29,7 @@ public class Question21 {
 		puzzle.append("vaJ$").delete(0, 3).deleteCharAt(puzzle.length() - 1);
 		System.out.println(puzzle); //avaJ
 
-//		
+//
 	}
 
 	private static void methodD() {

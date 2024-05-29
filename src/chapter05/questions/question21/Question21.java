@@ -7,11 +7,11 @@ public class Question21 {
 	public void moooo(int... z) {} // Compile. Ancak overloads metod degil
 	private void moo(int... x) {} // OK
 	public void moooo(int y) {} // Compile. Ancak overloads metod degil
-	
+
 //	public void moo(int... c, int d) {} Does Not Compile. varargs sonda olmasi gerekir.
 //	public void moo(int... i, int j...) {}  Does Not Compile. 2 tane varargs ifade olamaz.
-	
-	
-	
+
+
+
 
 }

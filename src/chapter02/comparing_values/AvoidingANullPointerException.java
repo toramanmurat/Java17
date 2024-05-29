@@ -8,7 +8,7 @@ public class AvoidingANullPointerException {
 
 		Duck duck2=new Duck();
 		duck2.age=3;
-		
+
 		methodNoException(duck);
 		methodNoException(duck2);
 //		methodNullPointerException(duck);
@@ -18,7 +18,7 @@ public class AvoidingANullPointerException {
 	static void methodNoException(Duck duck) {
 		if (duck != null && duck.getAge() < 5) {
 			System.out.println("No Exception");
-			
+
 		}
 
 	}

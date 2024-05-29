@@ -3,11 +3,11 @@ package chapter03.questions.Question21;
 public class Question21 {
 
 	public static void main(String[] args) {
-		
+
 		findZookeeper(30);
 	}
-	
-	static void findZookeeper(int id) { 
+
+	static void findZookeeper(int id) {
 		System.out.println(switch(id) { //switch ifadelerde Long kullanamayiz.
 		case 10 ->"Jane"; // {yield "Jane";}
 		case 20 -> {yield "Lisa";} // sonuna ; koyarsak hata verecektir.
@@ -16,5 +16,5 @@ public class Question21 {
 		default ->"Unassigned";
 		});
 	}
-	
+
 }

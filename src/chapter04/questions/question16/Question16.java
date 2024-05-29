@@ -1,7 +1,7 @@
 package chapter04.questions.question16;
 
 public class Question16 {
-	
+
 	public static void main(String[] args) {
 		var base = "ewe\nsheep\\t";
 		int length = base.length();

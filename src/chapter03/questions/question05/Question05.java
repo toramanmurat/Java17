@@ -10,7 +10,7 @@ public class Question05 {
 	}
 
 	static void FavoriteNumbers() {
-		List<Integer> myFavoriteNumbers = new ArrayList<Integer>();
+		List<Integer> myFavoriteNumbers = new ArrayList<>();
 		myFavoriteNumbers.add(10);
 		myFavoriteNumbers.add(14);
 		for (var a : myFavoriteNumbers) {
@@ -22,9 +22,10 @@ public class Question05 {
 //			continue;
 //			System.out.print(b + ", ");
 //		}
-//		
-		for (Object c : myFavoriteNumbers)
+//
+		for (Object c : myFavoriteNumbers) {
 			System.out.print(c + ", ");
+		}
 
 	}
 }

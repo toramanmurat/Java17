@@ -6,10 +6,10 @@ public class Order3 {
 	String value3 = "yellow";
 	{
 	 // CODE SNIPPET 1
-//		value1 = "green"; 
+//		value1 = "green";
 		value2 = "purple";
 		value3 = "orange";
-		
+
 	 }
 	static {
 		// CODE SNIPPET 2

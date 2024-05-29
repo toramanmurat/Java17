@@ -6,7 +6,7 @@ public class EqualityOperators2 {
 //		boolean monkey = true == 3; // DOES NOT COMPILE
 //		boolean ape = false != "Grape"; // DOES NOT COMPILE
 //		boolean gorilla = 10.2 == "Koko"; // DOES NOT COMPILE
-		
+
 		System.out.println("Farkli tipleri birbirleriyle karsilastiramayiz.");
 	}
 }

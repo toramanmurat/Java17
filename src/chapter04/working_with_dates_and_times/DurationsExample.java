@@ -19,11 +19,11 @@ public class DurationsExample {
 		System.out.println(everyTenSeconds);
 		System.out.println(everyMilli);
 		System.out.println(everyNano);
-		
+
 		durationsExamples2();
 
 	}
-	
+
 	private static void durationsExamples2() {
 		var daily = Duration.of(1, ChronoUnit.DAYS);
 		var hourly = Duration.of(1, ChronoUnit.HOURS);
@@ -31,7 +31,7 @@ public class DurationsExample {
 		var everyTenSeconds = Duration.of(10, ChronoUnit.SECONDS);
 		var everyMilli = Duration.of(1, ChronoUnit.MILLIS);
 		var everyNano = Duration.of(1, ChronoUnit.NANOS);
-		
+
 		System.out.println("#ChronoUnit");
 		System.out.println(daily);
 		System.out.println(hourly);

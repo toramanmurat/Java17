@@ -16,15 +16,16 @@ public class TraditionalSearch {
 		print(animals, a->a.canHop());
 		print(animals, a->a.canSwim());
 		print(animals, a->!a.canSwim());
-		
+
 	}
 
 	private static void print(List<Animal> animals, CheckTrait checker) {
 		for (Animal animal : animals) {
 
 			// General check
-			if (checker.test(animal))
+			if (checker.test(animal)) {
 				System.out.print(animal + " ");
+			}
 		}
 		System.out.println();
 	}

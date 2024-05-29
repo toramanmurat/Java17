@@ -14,7 +14,7 @@ public class Panda {
 		check(p1, p -> {
 			return p.age < 5;
 		});
-		
+
 		check(p1, p -> p.age < 5);
 	}
 

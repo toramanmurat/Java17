@@ -23,7 +23,7 @@ public class LimitingScope {
 //				iceride ki block disarida ki bloga erisim saglayabiliyor.
 			}
 		}
-		
+
 //		System.out.println(teenBit); Does Not Compile disarida ki block iceride ki bloga erisim saglayamaz.
 	}
 }

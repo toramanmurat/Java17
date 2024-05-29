@@ -6,6 +6,6 @@ public class Question11 {
 		 int sample2 = 3 * 2 % 3;
 		 int sample3 = 5 * (1 % 2);
 		 System.out.println(sample1 + ", " + sample2 + ", " + sample3);
-		
+
 	}
 }

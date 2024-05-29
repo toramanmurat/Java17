@@ -18,4 +18,4 @@ public class ComparingArrays {
 // Zero: bu array'ler equal
 // Positive: birinci array ikinci arrayden buyuktur.
 
-//eleman sayisina bakmaz 
+//eleman sayisina bakmaz

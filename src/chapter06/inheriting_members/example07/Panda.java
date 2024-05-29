@@ -9,7 +9,7 @@ public class Panda extends Bear {
 	public static void main(String[] args) {
 		eat();
 	}
-	
-	
+
+
 
 }

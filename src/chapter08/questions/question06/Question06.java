@@ -9,9 +9,9 @@ public class Question06 {
 //		B. s -->s.isEmpty()
 //		C. (String s) ->s.isEmpty() Ok
 //		D. (String s) -->s.isEmpty()
-//		E. (StringBuilder s) ->s.isEmpty() 
+//		E. (StringBuilder s) ->s.isEmpty()
 //		F. (StringBuilder s) -->s.isEmpty()
-		
+
 		Predicate<String> ps1=s->s.isEmpty();
 		Predicate<String> ps2=(String s) ->s.isEmpty();
 	}

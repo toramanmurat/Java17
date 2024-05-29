@@ -10,10 +10,10 @@ public class EqualityOperators3 {
 		var wednesday = tuesday;
 		System.out.println(monday == tuesday); // false
 		System.out.println(tuesday == wednesday); // true
-		
+
 		// monday == tuesday false olurken neden tuesday ==wednesday true oldu ?
 		// monday ve tuesday adinda iki farki obje olustu ve == operatoru bu iki degisken ayni nesneyi mi gosteriyor diye kontrol etti. Farkli objeleri gosterdikleri icin false dondu
 		// tuesday , wednesday degiskenine atandi ve bunlar ayni objeyi gostermekteler. Bundan dolayi da == kontrolunda true deger dondu.
-		
+
 	}
 }

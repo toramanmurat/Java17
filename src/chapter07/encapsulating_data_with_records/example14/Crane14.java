@@ -10,6 +10,6 @@ public record Crane14(int numberEggs, String name) {
 	public String toString() {
 		return name;
 	}
-	
-	
+
+
 }

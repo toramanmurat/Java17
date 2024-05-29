@@ -7,7 +7,7 @@ public class ForStatement4 {
 			System.out.println("in the loop : "+i);
 			i++;
 		}
-	
+
 	}
 
 }

@@ -9,10 +9,10 @@ public class Question03 {
 		int hearing4=(int)(2*ear);
 //		short hearing3=2*ear;Does Not Compile
 		long hearing5=2*ear;
-		
-		
-		
-		
-		
+
+
+
+
+
 	}
 }

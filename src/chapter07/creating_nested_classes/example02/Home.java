@@ -8,8 +8,9 @@ public class Home {
 		public int repeat = 3;
 
 		public void enter() {
-			for (int i = 0; i < repeat; i++)
+			for (int i = 0; i < repeat; i++) {
 				greet(greeting);
+			}
 		}
 
 		private static void greet(String message) {
@@ -34,4 +35,4 @@ public class Home {
 // Inner class --> public, protected,package,private alabilirler
 // Bir sinifi kalitabilir yada implement edebilir.
 // absract veya final olabilir.
-// 
+//

@@ -7,7 +7,7 @@ public class ValidLambdasExpression {
 	V02 v3=(String x)-> x.startsWith("test");
 	V01 v4= (x,y)->{return x.startsWith("test");}; // ; dikkat
 	V01 v5=(String x,String y)->x.startsWith("test");
-	
+
 
 }
 

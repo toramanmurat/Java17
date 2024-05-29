@@ -1,0 +1,29 @@
+package chapter09.using_the_map_interface.example09;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.function.BiFunction;
+
+public class MergingData2 {
+
+	public static void main(String[] args) {
+		BiFunction<String, String, String> mapper=(v1,v2) ->v1.length()>v2.length() ? v1:v2;
+		
+		
+		Map<String, String> favorites=new HashMap<String, String>();
+		favorites.put("Sam", null);
+		favorites.put("Jenny", "Bus Tour");
+		favorites.put("Tom", "Tram");
+		
+		String jenny = favorites.merge("Jenny", "Skyride", mapper);
+		String tom = favorites.merge("Tom", "Skyride", mapper);
+		String sam=favorites.merge("Sam", "Skyride", mapper);
+		System.out.println(favorites); //{Tom=Skyride, Jenny=Bus Tour, Sam=Skyride}
+		
+
+		
+	// value null ise metod cagrilmaz. ! direk verdigimiz deger eklenir.	
+		
+		
+	}
+}

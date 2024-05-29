@@ -1,7 +1,7 @@
 package chapter06.questions.question19;
 
 public class Lizard extends Reptile {
-	
+
 	static {
 		System.out.print("B");
 	}
@@ -9,6 +9,7 @@ public class Lizard extends Reptile {
 	public Lizard(int hatch) {
 	}
 
+	@Override
 	public final void layEggs() {
 		System.out.print("Lizard");
 	}

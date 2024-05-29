@@ -6,7 +6,7 @@ public class Question16 {
 //		short melody=(byte)(double)(note*=2);
 //		double song=melody;
 //		float symphony= (float) ((song==1_000f)? song*2L:song);
-		
+
 	}
 
 }

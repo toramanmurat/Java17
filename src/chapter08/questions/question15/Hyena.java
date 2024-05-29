@@ -14,7 +14,7 @@ public class Hyena {
 //		testLaugh(p, var -> p -> true); //Does Not Compile
 //		testLaugh(p, var -> age==1); //Does Not Compile
 //		testLaugh(p, var -> shenzi -> age == 2); //Does Not Compile
-		testLaugh(p, h ->h.age < 5 ); 
+		testLaugh(p, h ->h.age < 5 );
 	}
 
 	static void testLaugh(Hyena panda, Predicate<Hyena> joke) {

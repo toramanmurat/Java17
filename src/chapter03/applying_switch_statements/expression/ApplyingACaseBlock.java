@@ -13,10 +13,9 @@ public class ApplyingACaseBlock {
 		case 1 -> "Goldfish";
 //		case 2 -> {} Does Not Compile
 		case 3 -> {
-			if (length > 10)
-				yield "Blobfish"; 
-			else
-				yield "Green"; // else blogunu kaldirirsak hata verecektir.
+			if (length > 10){yield "Blobfish";}
+			else {yield "Green"; // else blogunu kaldirirsak hata verecektir.
+}
 		}
 		default -> "Swordfish"; //default zorunlu.
 		};

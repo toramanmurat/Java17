@@ -7,17 +7,17 @@ import java.util.function.LongSupplier;
 
 public class Question05 {
 //	A. BooleanSupplier Ok
-//	B. CharSupplier 
+//	B. CharSupplier
 //	C. DoubleSupplier Ok
-//	D. FloatSupplier 
+//	D. FloatSupplier
 //	E. IntSupplier Ok
 //	F. StringSupplier
-	
+
 	public static void main(String[] args) {
 		BooleanSupplier bs1=()->true;
 		IntSupplier is1= ()->10;
 		LongSupplier ls1=()->10L;
 		DoubleSupplier ds1= ()->10.0;
-		
+
 	}
 }

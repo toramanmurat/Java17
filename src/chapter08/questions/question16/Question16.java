@@ -12,7 +12,7 @@ public class Question16 {
 //		char c = 'x'; //Does Not Compile
 		chars = null;
 //		end = '1';  //Does Not Compile
-		
+
 		Predicate<Character> predicate = c -> {
 			char start = 'a';
 			return start <= c && c <= end;

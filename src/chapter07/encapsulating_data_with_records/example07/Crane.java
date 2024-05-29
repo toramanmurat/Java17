@@ -5,7 +5,7 @@ public record Crane(int numberEggs,String name) implements Bird {
 	@Override
 	public void fly() {
 		System.out.println("#Crane fly");
-		
+
 	}
 
 }

@@ -10,7 +10,7 @@ public class WorkingWithPeriods {
 		var start = LocalDate.of(2022, Month.JANUARY, 1);
 		var end = LocalDate.of(2022, Month.MARCH, 30);
 		performAnimalEnrichment(start, end);
-		
+
 		var period=Period.ofMonths(1);
 		performAnimalEnrichment(start,end,period);
 	}
@@ -22,7 +22,7 @@ public class WorkingWithPeriods {
 			upTo = upTo.plusMonths(1); // add a month
 		}
 	}
-	
+
 	private static void performAnimalEnrichment(LocalDate start, LocalDate end,Period period) {
 		var upTo = start;
 		while(upTo.isBefore(end)) {

@@ -6,7 +6,7 @@ public class DogV2 {
 		speak(name);
 		System.out.println(name); //WebbyGeorgette
 	}
-	
+
 	public static void speak(StringBuilder s) {
 		s.append("Georgette");
 	}

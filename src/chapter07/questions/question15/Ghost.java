@@ -11,19 +11,20 @@ public class Ghost {
 			System.out.println("Booo!!!");
 		}
 	}
-	
+
 	public static void main(String[] args) {
 //		var g = new Ghost().new Spirit() {};
 		var g = new Ghost().new Spirit();
 		g.boo();
-//		g.super.boo();
-		new Ghost().boo();
+new Ghost();
+		//		g.super.boo();
+		Ghost.boo();
 //		g.Ghost.boo();
 //		new Spirit().boo();
 		Ghost.boo();
-		
-		
-		
-		
+
+
+
+
 	}
 }

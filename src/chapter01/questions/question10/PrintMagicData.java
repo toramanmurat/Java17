@@ -8,11 +8,11 @@ public class PrintMagicData {
 //		var magic3=5_291._2;  Noktadan once ve sonra "_" kullanamayiz.
 		var magic4=2_234.0_0;  //Legal
 		var magic5=9___6;
-//		var magic6=_1_3_5_0; 
-		
+//		var magic6=_1_3_5_0;
+
 		System.out.println(magic+" "+magic4+" "+magic5);
-		
-		
+
+
 	}
 
 }

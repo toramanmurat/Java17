@@ -24,6 +24,6 @@ public class Gorilla {
 
 	public int total;
 
-//	public static double average= total / count; // DOES NOT COMPILE 
+//	public static double average= total / count; // DOES NOT COMPILE
 
 }

@@ -14,7 +14,7 @@ public class Question17 {
 		System.out.println(animals);
 		System.out.println(performers);
 	}
-	
+
 	public static void main(String[] args) {
 		countAttendees();
 	}

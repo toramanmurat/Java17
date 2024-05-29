@@ -1,12 +1,13 @@
 package chapter07.questions.question23;
 
 public class Penguin implements Swim, Dance {
+	@Override
 	public void perform() {
 		System.out.print("Smile!");
 	}
 
 	private void doShow() {
-		Swim.super.perform();;
+		Swim.super.perform();
 	}
 
 	public static void main(String[] eggs) {

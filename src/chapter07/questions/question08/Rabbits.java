@@ -6,11 +6,11 @@ public class Rabbits {
 	public void multiply() {
 		numRabbits *= 6;
 	}
-	
+
 	public int getNumberOfRabbits() {
 		return numRabbits;
 	}
-	
+
 }
 
 // degisken private olacak.

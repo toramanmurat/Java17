@@ -31,7 +31,7 @@ public class UsingLocalVariablesInsideALambdaBody {
 //	        }
 	}
 
-	
+
 
 	public void sample() {
 

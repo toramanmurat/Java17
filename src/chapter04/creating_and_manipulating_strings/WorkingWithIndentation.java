@@ -7,8 +7,8 @@ public class WorkingWithIndentation {
 				a
 				 b
 				c""";
-		var concat = " a\n" 
-				+ "  b\n" 
+		var concat = " a\n"
+				+ "  b\n"
 				+ " c";
 		System.out.println(block.length()); // 6
 		System.out.println(concat.length()); // 9

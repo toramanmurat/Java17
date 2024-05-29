@@ -8,7 +8,7 @@ public class FormattingValues {
 		System.out.println("Hello " + name + ", order " + orderId + " is ready");
 		System.out.println(String.format("Hello %s, order %d is ready", name, orderId));
 		System.out.println("Hello %s, order %d is ready".formatted(name, orderId));
-		
+
 		System.out.println("#Example2");
 		var name2 = "James";
 		var score = 90.25;

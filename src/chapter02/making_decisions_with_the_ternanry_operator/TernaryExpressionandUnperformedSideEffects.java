@@ -7,12 +7,12 @@ public class TernaryExpressionandUnperformedSideEffects {
 		int zzz = 1;
 		int sleep = zzz<10 ? sheep++ : zzz++;
 		System.out.println(sheep + "," + zzz); // 2,1
-		
-		
+
+
 		int sheep1 = 1;
 		int zzz1 = 1;
 		int sleep1 = zzz>=10 ? sheep1++ : zzz1++;
 		System.out.print(sheep1 + "," + zzz1); // 2,1
-		
+
 	}
 }

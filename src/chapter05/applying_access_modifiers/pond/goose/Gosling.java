@@ -8,7 +8,7 @@ public class Gosling extends Bird{ // kalitim oldugu icin erisim saglanir.
 		floatInWater();
 		System.out.println(text);
 	}
-	
+
 	public static void main(String[] args) {
 		new Gosling().swim();
 	}

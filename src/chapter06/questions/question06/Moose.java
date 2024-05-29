@@ -9,7 +9,7 @@ class Caribou {
 	private int antlers = 10;
 }
 
-class Reindeer { 
+class Reindeer {
 	private final int antlers = 5;
 }
 

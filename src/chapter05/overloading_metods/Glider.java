@@ -25,4 +25,4 @@ public class Glider {
 }
 
 // once bire-bir eslesen bir metod var ise o calisir.
-// 
+//

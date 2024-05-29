@@ -12,10 +12,10 @@ public class MySecret implements Secret {
 //		return (e) ->{ String e = ""; return "Poof"; };
 //		return (e) ->{ String e = ""; return "Poof" };
 //		return (e) ->{ String f = ""; return "Poof"; };
-		
-		
+
+
 	}
-	
+
 	public static void main(String[] args) {
 		Secret lambdaSecret1= (e)->"Poof";
 //		Secret lambdaSecret2=(e) ->{"Poof"};
@@ -24,7 +24,7 @@ public class MySecret implements Secret {
 //		Secret lambdaSecret4=(e) ->{ String e = ""; return "Poof" }; // Parametre ismiyle ayni isimde bir degisken tanimlanamaz.
 //		Secret lambdaSecret5=(e) ->{ String e = ""; return "Poof" };// Parametre ismiyle ayni isimde bir degisken tanimlanamaz.
 		Secret lambdaSecret6=(e) ->{ String f = ""; return "Poof"; };
-		
+
 	}
 
 }

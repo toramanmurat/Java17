@@ -14,6 +14,6 @@ public class Kiwi {
 		kiwi.fly(5); // int
 		kiwi.fly((Integer)5); //Integer
 		kiwi.fly(Integer.valueOf(5)); //Integer
-				
+
 	}
 }

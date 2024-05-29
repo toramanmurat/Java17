@@ -8,7 +8,9 @@ public class Question13 {
 	 do {
 		 meters--;
 		 System.out.println(meters+"--");
-		 if(meters==8) keepGoing = false;
+		 if(meters==8) {
+			keepGoing = false;
+		}
 		 result -=2;
 		} while (keepGoing);
 		 System.out.println(result);

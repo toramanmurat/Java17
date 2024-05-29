@@ -4,9 +4,9 @@ public class Question29 {
 
 	public static void main(String[] args) {
 		int y = -2;
-		do
+		do {
 			System.out.print(++y + " ");
-		while (y <= 5);
+		} while (y <= 5);
 	}
 
 }

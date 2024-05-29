@@ -12,7 +12,7 @@ public class Vet {
 //		System.out.println(takeNap((t, s) -> {String t = "";return "Sleep: " + t;})); //Does Not Compile
 //		System.out.println(takeNap((w,q) ->{"Sleep: " + w})); // Does Not Compile
 //		System.out.println(takeNap((e,u) ->{ String g = ""; "Sleep: " + e })); // Does Not Compile
-		System.out.println(takeNap((a,b) ->"Sleep: " + (double)(b==null ? a : a))); 
+		System.out.println(takeNap((a,b) ->"Sleep: " + (b==null ? a : a)));
 		System.out.println(takeNap((r,k) ->{ String g = ""; return "Sleep:"; }));
 	}
 

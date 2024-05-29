@@ -9,6 +9,6 @@ public class GarbageCollection {
 		one=two; // one b nesnesini gosteriyor.
 		String three=one; // three b nesnenisi gosteriyor.
 		one=null;
-		
+
 	}
 }

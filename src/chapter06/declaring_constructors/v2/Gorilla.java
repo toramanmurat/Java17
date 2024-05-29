@@ -6,11 +6,11 @@ public class Gorilla extends Animal{
 		super(age,"Gorilla");
 		// TODO Auto-generated constructor stub
 	}
-	
+
 	public Gorilla() {
 		super(5);
 	}
-	
-	
+
+
 
 }

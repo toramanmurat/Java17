@@ -10,16 +10,17 @@ public class PeriodExamples2 {
 		var everyThreeWeeks=Period.ofWeeks(3); // P21D --> 21 Day
 		var everyOtherDay=Period.ofDays(2);
 		var everyYearAndWeek=Period.of(1, 0, 7);
-		
+
 		System.out.println(annually);
 		System.out.println(quarterly);
 		System.out.println(everyThreeWeeks);
 		System.out.println(everyOtherDay);
 		System.out.println(everyOtherDay);
 		System.out.println(everyYearAndWeek);
-		
-		var wrong=Period.ofYears(3).ofWeeks(1); //en sonda ki aktif olur
-		
+
+		Period.ofYears(3);
+		var wrong=Period.ofWeeks(1); //en sonda ki aktif olur
+
 		System.out.println(wrong);
 	}
 }

@@ -6,7 +6,7 @@ public class StringBuilderDeleteContents {
 		var sb = new StringBuilder("abcdef");
 		sb.delete(1, 3);
 		System.out.println(sb); //adef
-		
+
 		System.out.println("#Example2");
 		var sb2 = new StringBuilder("abcdef");
 		sb2.delete(1, 100); // sb = a

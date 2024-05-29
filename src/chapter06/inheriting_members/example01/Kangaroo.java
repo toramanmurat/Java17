@@ -1,6 +1,7 @@
 package chapter06.inheriting_members.example01;
 
 public class Kangaroo extends Marsupial {
+	@Override
 	public double getAverageWeight() {
 		return super.getAverageWeight() + 20;
 	}

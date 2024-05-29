@@ -5,7 +5,7 @@ public class BlackRhino extends Rhino {
 	@Override
 	void eatLeaf() {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 }

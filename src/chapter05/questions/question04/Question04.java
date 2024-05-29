@@ -8,5 +8,5 @@ public class Question04 {
 //	final Long song3=6; //Does Not Compile. 6L yaparsak olur
 	final double song4=6;
 //	final Double song5=6; //Does Not Compile. 6d yaparsak olur.
-	
+
 }

@@ -2,7 +2,7 @@
 package chapter01.questions.question02.animal;
 
 // package tanimindan sonra import tanimlamalari yapilir.
-import java.util.*;
+import java.util.Random;
 
 
 public class Rabbit {

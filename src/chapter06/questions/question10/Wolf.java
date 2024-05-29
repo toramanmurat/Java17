@@ -1,7 +1,7 @@
 package chapter06.questions.question10;
 
 public class Wolf extends Howler{
-	
+
 	protected Wolf(String stars) {
 		super(2L);
 	}
@@ -14,7 +14,7 @@ public class Wolf extends Howler{
 //		super((short)2); //E Does Not Compile
 //		super(null); //F Does Not Compile
 	}
-	
+
 	public static void main(String[] args) {
 		Wolf w=new Wolf();
 	}

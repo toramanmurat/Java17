@@ -10,6 +10,7 @@ public class Bear {
 				return false;
 			}
 		}, INSECTS {
+			@Override
 			public boolean isHealthy() {
 				return true;
 			}
@@ -42,7 +43,7 @@ public class Bear {
 
 		public abstract boolean isHealthy(); //absract metodu butun enumlar icin override etmemiz gerekir.
 	}
-	
+
 	public static void main(String[] args) {
 		System.out.print(FOOD.INSECTS);
 		System.out.print(FOOD.INSECTS.ordinal());

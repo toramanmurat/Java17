@@ -8,7 +8,7 @@ public final class Animal { // An immutable object declaration
 	private final List<String> favoriteFoods;
 
 	public Animal() {
-		this.favoriteFoods = new ArrayList<String>();
+		this.favoriteFoods = new ArrayList<>();
 		this.favoriteFoods.add("Apples");
 	}
 

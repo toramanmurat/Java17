@@ -52,7 +52,7 @@ public class FunctionalInterfacesForDoubleIntAndLong {
 		LongSupplier longS1 = () -> 10;
 		LongSupplier longS2 = new Random()::nextInt;
 		LongSupplier longS3 = new Random()::nextLong;
-		
+
 		System.out.println(longS1.getAsLong());
 		System.out.println(longS2.getAsLong());
 		System.out.println(longS3.getAsLong());

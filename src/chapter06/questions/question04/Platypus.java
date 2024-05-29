@@ -14,7 +14,7 @@ public class Platypus extends Mammal {
 	public static void main(String[] args) {
 		new Mammal(5); // default constructor olmadıgı icin hata verecektir.Mammal class'ina default
 						// constructor eklersek cikti Mammal olacaktir.
-//		new Platypus();  Test!! . Mammal#Default Constructor Platypus 
+//		new Platypus();  Test!! . Mammal#Default Constructor Platypus
 
 	}
 

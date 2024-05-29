@@ -29,7 +29,7 @@ public class NegationOperators {
 		zooTemperature = -(-zooTemperature);
 		System.out.println(zooTemperature); // -1.21
 
-		// ! boolean ifadelerde kullanilir. - boolean ifadelerde kullanamayiz . 
+		// ! boolean ifadelerde kullanilir. - boolean ifadelerde kullanamayiz .
 //		int pelican = !5; // DOES NOT COMPILE
 //		boolean penguin = -true;// DOES NOT COMPILE
 //		boolean peacock = !0; // DOES NOT COMPILE

@@ -3,6 +3,7 @@ package chapter06.questions.question22;
 public class Child extends Person {
 	static String name;
 
+	@Override
 	void setName(String w) {
 		name = w;
 	}
@@ -10,11 +11,11 @@ public class Child extends Person {
 	public static void main(String[] p) {
 		final Child m = new Child();
 		final Person t = m;
-		m.name = "Elysia";
-		t.name = "Sophia";
+		Child.name = "Elysia";
+		Person.name = "Sophia";
 		m.setName("Webby");
 		t.setName("Olivia");
-		System.out.println(m.name + " " + t.name);
+		System.out.println(Child.name + " " + Person.name);
 	}
 
 }

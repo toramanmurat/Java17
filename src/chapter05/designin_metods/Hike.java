@@ -26,7 +26,7 @@ public class Hike {
 		if (1 < 2) {
 			return "orange";
 		}
-		
+
 		return "apple"; // Dead Code her zaman if blogu calisacagi icin
 
 	}

@@ -10,7 +10,7 @@ public class PeriodVsDuration {
 		var date=LocalDate.of(2022, 5, 25);
 		var period=Period.ofDays(1);
 		var days=Duration.ofDays(1);
-		
+
 		System.out.println(date.plus(period));
 		System.out.println(date.plus(days)); //java.time.temporal.UnsupportedTemporalTypeException
 	}

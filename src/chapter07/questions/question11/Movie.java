@@ -10,7 +10,7 @@ public class Movie {
 			System.out.println(butter);
 		}
 	}
-	
+
 	public static void main(String[] args) {
 		var movie = new Movie();
 		Movie.Popcorn in = new Movie().new Popcorn();

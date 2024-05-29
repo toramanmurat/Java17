@@ -5,7 +5,7 @@ import java.time.LocalTime;
 import java.time.temporal.ChronoUnit;
 
 public class ChronoUnitForDifferences {
-	
+
 	public static void main(String[] args) {
 		var one = LocalTime.of(5, 15);
 		var two = LocalTime.of(6, 30);

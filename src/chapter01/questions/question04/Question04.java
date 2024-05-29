@@ -9,7 +9,7 @@ public class Question04 {
 //		String java.lang;  degisken isimleri arasina "." konulamaz.
 		String Public; // Java sensitive dir Public ve public farklidir. public veremeyiz ama Public verebiliriz.
 //		String 1980_S; Javada degiskenler sayi ile baslayamaz.
-		String _Q2_; 
-		
+		String _Q2_;
+
 	}
 }

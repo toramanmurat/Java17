@@ -12,15 +12,15 @@ public class Question02 {
 //		short bananas5=apples+oranges; // Does Not Compile
 		short babanas5=(short) (apples+oranges);
 //		byte babanas6=apples+oranges; Does Not Compile
-		
+
 		System.out.println(babanas1+" "+babanas2+" "+babanas4 );
 		System.out.println(Short.MAX_VALUE);
 		System.out.println(babanas5);
-		
+
 //		apples+orange ifadesi automatically olarak int tipine donusturur.
 //		int bir degiskeni int,long ve double atayabiliriz.
 //		int bir degiskeni boolean tipine atayamayiz.
-//		int bir degiskeni short ve byte atayamayiz. babanas5 te oldugu gibi cast yaparak atayabiliriz. 
-		
+//		int bir degiskeni short ve byte atayamayiz. babanas5 te oldugu gibi cast yaparak atayabiliriz.
+
 	}
 }

@@ -7,9 +7,9 @@ public class Fox extends Canine{
 		// TODO Auto-generated method stub
 		return "Squeak!!";
 	}
-	
-	
-	
-	
+
+
+
+
 
 }

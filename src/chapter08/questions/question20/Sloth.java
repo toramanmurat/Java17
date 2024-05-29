@@ -9,6 +9,6 @@ public class Sloth implements Yawn{
 		// TODO Auto-generated method stub
 		return "Sleep: " + zzz;
 	}
-	
+
 
 }

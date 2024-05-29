@@ -6,7 +6,7 @@ import java.time.LocalTime;
 import java.time.ZonedDateTime;
 
 public class CreatingDatesAndTimes {
-	
+
 	public static void main(String[] args) {
 		System.out.println(LocalDate.now()); //yil-ay-gun bilgisini tutacaktir.
 		System.out.println(LocalTime.now()); //saat-dakika-saniye

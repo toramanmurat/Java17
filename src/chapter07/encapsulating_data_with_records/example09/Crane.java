@@ -7,10 +7,10 @@ public record Crane(int numberEggs, String name) {
 		if(numberEggs<0) {
 			throw new IllegalArgumentException();
 		}
-		
+
 		name=name.toUpperCase();
 	}
-	
+
 	// Long constructor implicitly called at end of compact constructor
 
 }

@@ -3,7 +3,7 @@ package chapter02.assingining_values;
 public class ReviewingPrimitiveAssignments {
 
 	public static void main(String[] args) {
-		
+
 //		int fish = 1.0; // DOES NOT COMPILE
 //		short bird = 1921222; // DOES NOT COMPILE
 //		int mammal = 9f; // DOES NOT COMPILE

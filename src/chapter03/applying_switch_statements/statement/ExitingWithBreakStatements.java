@@ -6,18 +6,18 @@ public class ExitingWithBreakStatements {
 		int month=6;
 		printSeason(month); // break olmadigindan hangi case giriyorsa ondan sonra butun caselere girer.
 		System.out.println("\n--------------- breakk");
-		
+
 		printSeasonWithBreak(month);
 		System.out.println("\n---------------");
-		
-		
+
+
 		// switch icerisinde ki default en sonda olmak zorunda degil
 		printSeason(month=15);
 		System.out.println("\n--------------- breakk");
 		printSeasonWithBreak(month=15);
-		
-		
-		
+
+
+
 	}
 
 	public static void printSeason(int month) {

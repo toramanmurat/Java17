@@ -5,7 +5,7 @@ package chapter08.questions.question11;
 public class Fantasy {
 
 	public static void scary(String animal) {
-//		var dino = s -> "dino".equals(animal); 
+//		var dino = s -> "dino".equals(animal);
 //		var dragon = s -> "dragon".equals(animal);
 //		var combined = dino.or(dragon);
 //		System.out.println(combined.test(animal));

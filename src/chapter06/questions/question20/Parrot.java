@@ -5,6 +5,7 @@ public class Parrot extends Bird{
 		super(y);
 	}
 
+	@Override
 	protected Parrot fly() {
 		return new Parrot(2);
 	}

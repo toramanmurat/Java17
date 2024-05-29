@@ -7,15 +7,15 @@ public class InValidLambdasExpression {
 
 //	V02 v2=x ->{ x.startsWith("camel"); } ; // return Dikkat!
 	V002 v2=x ->{return x.startsWith("camel"); };
-	
+
 //	V02 v3=x ->{ return x.startsWith("giraffe") };
 	V002 v3=x ->{ return x.startsWith("giraffe");}; //; dikkat!
-	
+
 //	V02 v4=String x ->x.endsWith("eagle"); () Dikkat!
 	V002 v4=(String x) ->x.endsWith("eagle");
-	
-	
-	
+
+
+
 
 }
 

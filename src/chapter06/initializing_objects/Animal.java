@@ -1,10 +1,10 @@
 package chapter06.initializing_objects;
 
 public class Animal {
-	static 
+	static
 	{
 		System.out.println("A");
 	}
-	
+
 
 }

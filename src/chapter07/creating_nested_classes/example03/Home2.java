@@ -8,8 +8,9 @@ public class Home2 {
 		public int repeat = 3;
 
 		public void enter() {
-			for (int i = 0; i < repeat; i++)
+			for (int i = 0; i < repeat; i++) {
 				greet(greeting);
+			}
 		}
 
 		private static void greet(String message) {
@@ -27,10 +28,10 @@ public class Home2 {
 
 		var home2 = new Home2(); // Create the outer class instance
 		home2.enterRoom2();
-		
+
 		Room2 room2=home2.new Room2(); // Create the inner class instance
 		room2.enter();
-		
+
 		new Home2().new Room2().enter();// Sorry, it looks ugly to us too!
 	}
 
@@ -39,4 +40,4 @@ public class Home2 {
 // Inner class --> public, protected,package,private alabilirler
 // Bir sinifi kalitabilir yada implement edebilir.
 // absract veya final olabilir.
-// 
+//

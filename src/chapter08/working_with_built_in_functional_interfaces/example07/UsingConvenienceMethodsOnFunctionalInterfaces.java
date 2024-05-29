@@ -56,9 +56,9 @@ public class UsingConvenienceMethodsOnFunctionalInterfaces {
 		Function<Integer, Integer> after = x -> x * 2;
 		Function<Integer, Integer> combined = after.compose(before);
 		System.out.println(combined.apply(3)); // 8 ((3+1) *2)
-		
+
 		Function<Integer, Integer> combined2 = before.compose(after);
 		System.out.println(combined2.apply(3)); //7 ((3*2)+1)
-		
+
 	}
 }

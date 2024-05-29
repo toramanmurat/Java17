@@ -10,10 +10,10 @@ public class AutoboxingAndUnboxing {
 		Integer quackquack = quack; // Autoboxing
 		int quackquackquack = quackquack; // Unboxing
 
-		Short tail = 8; // Autoboxing
-		Character p = Character.valueOf('p');
+		short tail = 8; // Autoboxing
+		char p = 'p';
 		char paw = p; // Unboxing
-		Boolean nose = true; // Autoboxing
+		boolean nose = true; // Autoboxing
 		Integer e = Integer.valueOf(9);
 		long ears = e; // Unboxing, then implicit casting
 	}

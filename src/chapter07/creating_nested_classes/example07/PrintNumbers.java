@@ -25,27 +25,27 @@ public class PrintNumbers {
 		int height = 3;
 		class VolumeCalculator {
 			public int multiply() {
-				
-			return length * width * height; // DOES NOT COMPILE width degeri 2 kere atandigi icin 
+
+			return length * width * height; // DOES NOT COMPILE width degeri 2 kere atandigi icin
 			}
 		}
-		
+
 //		width = 2; multiply metodu icerisinde derleme hatasina sebeb olacaktir.
-		
+
 		var volume=new VolumeCalculator();
 		System.out.println(volume.multiply()); //150
 	}
-	
+
 	public static void main(String[] args) {
 		var printer = new PrintNumbers();
 		printer.calculate(); // 100
-		
+
 		printer.processData();
-		
-		
-		
-		
-		
+
+
+
+
+
 	}
 
 }

@@ -19,7 +19,7 @@ public class Zoo {
 // "San Diego"
 // Zoo
 
-// java Zoo.java Zoo 
+// java Zoo.java Zoo
 // Hello World!
 // Zoo
 // Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1 at chapter01.mainmethod.Zoo.main(Zoo.java:8)

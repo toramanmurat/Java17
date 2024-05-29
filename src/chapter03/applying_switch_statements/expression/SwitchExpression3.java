@@ -16,7 +16,7 @@ public class SwitchExpression3 {
 		case 10, 11, 12 -> System.out.println("Fall");
 		} //deger atamasi yapmadigimiz icin ; gerek yok.
 	}
-	
+
 	public static  String printSeasonV2(int month) {
 		var season= switch (month) {
 		case 1, 2, 3 -> "Winter";
@@ -26,10 +26,10 @@ public class SwitchExpression3 {
 		 // deger dondugumuz icin default olmak zorunda!!!
 		default -> throw new IllegalArgumentException("Unexpected value: " + month);
 		}; // season deger atamasi yaptigimiz icin ; gerekli!
-		
+
 		return season;
 	}
-	
-	
+
+
 
 }

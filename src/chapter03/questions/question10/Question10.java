@@ -20,9 +20,9 @@ public class Question10 {
 //			return DayOfWeek.THURSDAY; // final degil!
 		case 2, 10:
 			break;
-//		case Sunday: // degisken final olmadigi icin 
+//		case Sunday: // degisken final olmadigi icin
 //			return DayOfWeek.SUNDAY;
-//		case DayOfWeek.MONDAY: // int tipinde degil 
+//		case DayOfWeek.MONDAY: // int tipinde degil
 //			return DayOfWeek.MONDAY;
 		}
 		return DayOfWeek.FRIDAY;

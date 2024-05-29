@@ -5,6 +5,6 @@ public class Donkey {
 	public Donkey() {
 		super();
 	}
-	
-	
+
+
 }

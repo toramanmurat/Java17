@@ -4,13 +4,13 @@ public class Beetle extends Insect{
 
 //	@Override
 //	public int getNumberOfSections(int count) {
-//		
+//
 //		return 1;
 //	}
 
 	@Override
 	int getNumberOfLegs() {
-		
+
 		return 6;
 	}
 
@@ -19,7 +19,7 @@ public class Beetle extends Insect{
 		// TODO Auto-generated method stub
 		return 0;
 	}
-	
+
 
 }
 

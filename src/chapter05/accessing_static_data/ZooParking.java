@@ -1,7 +1,8 @@
 package chapter05.accessing_static_data;
 
-import java.util.List;
 import static java.util.Arrays.asList; //static import
+
+import java.util.List;
 
 public class ZooParking {
 

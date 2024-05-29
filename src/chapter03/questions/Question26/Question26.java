@@ -7,13 +7,14 @@ public class Question26 {
 		String name = "";
 		while (w < 2) {
 			name += "A";
-			
+
 			do {
 				name += "B";
-				if (name.length() > 0)
+				if (name.length() > 0) {
 					name += "C";
-				else
+				} else {
 					break;
+				}
 				r++;
 			} while (r <= 1); // sonsuz donguye girer.
 //			r++; R do-while dongusu icerisine alirsak ABCABC yazar.

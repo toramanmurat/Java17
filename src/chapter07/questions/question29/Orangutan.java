@@ -10,7 +10,7 @@ public class Orangutan {
 //	 this().age = 6;
 		this.age = 6;
 	}
-	
+
 	public static void main(String[] bananas) {
 //		final Primate x = (Primate) new Orangutan();
 //		System.out.println(x.age);

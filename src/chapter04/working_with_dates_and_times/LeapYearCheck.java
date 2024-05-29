@@ -11,6 +11,6 @@ public class LeapYearCheck {
 		System.out.println("2020: " + Year.isLeap(2020));//true
 		System.out.println("2304: " + Year.isLeap(2304));//true
 		System.out.println("2304: " + Year.isLeap(2100));//false
-		
+
 	}
 }

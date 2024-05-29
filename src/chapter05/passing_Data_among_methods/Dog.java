@@ -7,7 +7,7 @@ public class Dog {
 		speak(name);
 		System.out.println(name); //Webby
 	}
-	
+
 	public static void speak(String name) {
 		name="Georgette";
 	}

@@ -5,7 +5,7 @@ public class Zoo {
 	public static void main(String[] args) {
 		var name="Hello";
 		var size=7;
-		
+
 	}
 }
 // local variable type inference

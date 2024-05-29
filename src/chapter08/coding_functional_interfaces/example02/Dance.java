@@ -5,7 +5,7 @@ public interface Dance {
 
 	void move();
 	void rest();
-	
+
 }
 
 // Dance interface FunctionalInterface interface degildir. 2 tane abstract metodu var.

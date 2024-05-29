@@ -6,7 +6,7 @@ public class ElseStatement {
 //		int hourOfDay = 10; Good Morning
 //		int hourOfDay = 12; Good Afternoon
 		int hourOfDay = 17; //Good Evening
-		
+
 		if (hourOfDay < 11) {
 			System.out.println("Good Morning");
 		}
@@ -17,8 +17,9 @@ public class ElseStatement {
 
 		if (hourOfDay < 11) {
 			System.out.println("Good Morning");
-		} else
+		} else {
 			System.out.println("Good Afternoon");
+		}
 
 		if (hourOfDay < 11) {
 			System.out.println("Good Morning");
@@ -27,6 +28,6 @@ public class ElseStatement {
 		} else {
 			System.out.println("Good Evening");
 		}
-		
+
 	}
 }

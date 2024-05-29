@@ -11,8 +11,8 @@ public class Cheetah extends Speedster {
 //		this.numSpots = numSpots; //0
 //		numSpots = super.numSpots; //0
 		super.numSpots = numSpots; //50
-		
-		
+
+
 	}
 
 	public static void main(String[] args) {

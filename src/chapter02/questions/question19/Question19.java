@@ -7,9 +7,9 @@ public class Question19 {
 		int end=4;
 		end +=++start;
 		start=(byte) (Byte.MAX_VALUE+1);
-		
+
 		System.out.println(end);
 		System.out.println(start);
-		
+
 	}
 }

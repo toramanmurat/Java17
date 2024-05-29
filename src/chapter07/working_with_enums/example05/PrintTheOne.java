@@ -8,9 +8,9 @@ public class PrintTheOne {
 		OnlyOne secondCall = OnlyOne.ONCE; // Doesn't print anything
 		System.out.print("end");
 	}
-	
+
 	//begin,constructing,end
-	
+
 }
 
 // Enum'lar icin contructorlar bir kez calisacaktir.(hepsi icin)

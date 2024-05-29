@@ -12,20 +12,20 @@ public class Cuttlefish {
 	static {
 		System.out.println(COUNT);
 	}
-	
+
 	{
 		COUNT++;
 		System.out.println(COUNT);
 	}
-	
+
 	public Cuttlefish() {
 		System.out.println("Constructor");
 	}
-	
+
 	public static void main(String[] args) {
 		System.out.println("Ready");
 		new Cuttlefish();
-		
+
 	}
 }
 

@@ -8,9 +8,9 @@ package chapter07.implementing_interfaces.example05.v02;
 
 //	@Override
 //	public void eatPlants() { //Does Not Compile. Herbivore2 ve Omnivore2 eatPlants metodlarinin donus tipi ayni degil
-//		
+//
 //		System.out.println("Eating plants! ");
-//		
+//
 //	}
 
 //}

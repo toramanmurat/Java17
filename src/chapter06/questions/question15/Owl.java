@@ -2,6 +2,7 @@ package chapter06.questions.question15;
 
 public class Owl extends Nocturnal {
 
+	@Override
 	public boolean isBlind() {
 		return false;
 	}

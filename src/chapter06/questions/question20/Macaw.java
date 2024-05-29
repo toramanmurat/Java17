@@ -5,6 +5,7 @@ public class Macaw extends Parrot{
 		super(z);
 	}
 
+	@Override
 	public Macaw fly() {
 		return new Macaw(3);
 	}

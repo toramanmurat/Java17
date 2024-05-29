@@ -6,7 +6,7 @@ import java.time.ZoneId;
 import java.time.ZonedDateTime;
 
 public class WorkingInstants2 {
-	
+
 	public static void main(String[] args) {
 		 var date = LocalDate.of(2022, 5, 25);
 	        var time = LocalTime.of(11, 55, 00);
@@ -17,7 +17,7 @@ public class WorkingInstants2 {
 	        System.out.println("instant : " + instant); // 202–05–25T15:55:00Z
 
 
-	       
+
 	}
 
 }

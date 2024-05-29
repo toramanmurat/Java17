@@ -9,25 +9,28 @@ public class ForEachStatementInvalid {
 		printName(names);
 		System.out.println("For Each ----");
 		printNameForEach(names);
-		
+
 		System.out.println("For Each List ---");
 		printNameForEach(List.of(names));
 
 	}
 
 	public static void printName(String[] names) {
-		for (int counter = 0; counter < names.length; counter++)
-			System.out.println(names[counter]);
+		for (String name : names) {
+			System.out.println(name);
+		}
 	}
 
 	public static void printNameForEach(String[] names) {
-		for (var name : names)
+		for (var name : names) {
 			System.out.println(name);
+		}
 	}
 
 	public static void printNameForEach(List<String> names) {
-		for (var name : names)
+		for (var name : names) {
 			System.out.println(name);
+		}
 	}
 
 }

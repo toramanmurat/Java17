@@ -15,10 +15,7 @@ public class ApplyingACaseBlock2 {
 			yield "Trout"; // {} kullanirsak yield kullanmaliyiz
 		}
 		case 3 -> {
-			if (length > 10)
-				yield "Blobfish";
-			else
-				yield "Green";
+			if (length > 10){yield "Blobfish";}else {yield "Green";}
 		}
 		default -> "Swordfish"; //default zorunlu.
 		};

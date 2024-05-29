@@ -6,11 +6,11 @@ public class Question01 {
 		// 2- Main metodun donus tipi void olmalidir. (B ve F)
 		// 3- Main metod static olmalidir. (C)
 		// 4- Main metod final olabilir. !!!
-		
+
 	}
 
 
-	
+
 
 }
 
@@ -18,7 +18,7 @@ public class Question01 {
 //class A{
 //	private static void main(String[] args) {
 //		System.out.println("#A main metod");
-//		
+//
 //	}
 //}
 

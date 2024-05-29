@@ -14,7 +14,7 @@ public class Question19 {
 //		Consumer<Object> consumer =System.out.println(s); //Does Not Compile
 //		Consumer<Object> consumer=System::out::println; //Does Not Compile
 		Consumer<Object> consumer=System.out::println;
-		
+
 		s.forEach(consumer);
 	}
 }

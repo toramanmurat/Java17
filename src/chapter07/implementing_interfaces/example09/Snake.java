@@ -7,7 +7,8 @@ public class Snake implements IsColdBlooded{
 		// TODO Auto-generated method stub
 		return true;
 	}
-	
+
+	@Override
 	public double getTemperature() { //Optional override
 		return 12;
 	}

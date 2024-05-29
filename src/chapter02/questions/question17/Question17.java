@@ -8,7 +8,7 @@ public class Question17 {
 		ticketsSold += 1 + ticketsTaken++;
 		ticketsTaken *= 2;
 		ticketsSold += (long)1;
-		
+
 		System.out.println(ticketsTaken);
 		System.out.println(ticketsSold);
 	}

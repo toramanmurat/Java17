@@ -11,8 +11,7 @@ public class WhileStatement4 {
 //      } //DOES NOT COMPILE
 
 		while (x == 5) {
-		}
-		; // REDUNDANT
+		} // REDUNDANT
 
 		while (true) {
 

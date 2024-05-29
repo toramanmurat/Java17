@@ -1,7 +1,7 @@
 package chapter06.questions.question12;
 
 public class Beaver extends Rodent {
-	
+
 
 
 	public Beaver(Integer x) {
@@ -9,11 +9,12 @@ public class Beaver extends Rodent {
 		// TODO Auto-generated constructor stub
 	}
 
+	@Override
 	public Integer chew() throws RuntimeException { //Number yerine Integer yap!
 		System.out.println("Beaver is chewing on wood");
 		return 2;
 	}
-	
+
 
 }
 

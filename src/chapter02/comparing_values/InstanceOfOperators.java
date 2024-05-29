@@ -7,14 +7,15 @@ public class InstanceOfOperators {
 		Number num = zooTime;
 		Object obj = zooTime;
 		openZoo(num);
-		
-		
+
+
 	}
 
 	public static void openZoo(Number time) {
-		if (time instanceof Integer)
-			System.out.print((Integer) time + " O'clock");
-		else
+		if (time instanceof Integer) {
+			System.out.print(time + " O'clock");
+		} else {
 			System.out.print(time);
+		}
 	}
 }

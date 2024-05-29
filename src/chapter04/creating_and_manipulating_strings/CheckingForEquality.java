@@ -13,4 +13,4 @@ public class CheckingForEquality {
 
 // public boolean equals(Object anObject)
 
-// public boolean equalsIgnoreCase(String anotherString) 
+// public boolean equalsIgnoreCase(String anotherString)

@@ -10,18 +10,21 @@ public class UsingAMultidimensionalArray {
 		twoD[1][1]=4;
 		twoD[2][0]=5;
 		twoD[2][1]=6;
-		
-		for (int i = 0; i < twoD.length; i++) {
-			for (int j = 0; j < twoD[i].length; j++)
-				System.out.print(twoD[i][j] + " "); // print element
+
+		for (int[] element : twoD) {
+			for (int j = 0; j < element.length; j++)
+			 {
+				System.out.print(element[j] + " "); // print element
+			}
 			System.out.println(); // time for a new row
 
 		}
 
 		System.out.println("#Forv2");
 		for (int[] inner : twoD) {
-			for (int num : inner)
+			for (int num : inner) {
 				System.out.print(num + " ");
+			}
 			System.out.println();
 		}
 	}
